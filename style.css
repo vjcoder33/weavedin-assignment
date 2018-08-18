@@ -97,7 +97,7 @@ body {
 }
 
 .create-icon {
-    background-image: url(./Assets/plus-white.png);
+    background-image: url(./plus-white.png);
     background-size: contain;    
     background-repeat: no-repeat;
     width: 20px;
