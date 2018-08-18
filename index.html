@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Invoice App </title>
+        <link rel="stylesheet" href="./style.css">        
+    </head>
+    <body>
+        <div class="app-container">
+            <div class="header-container">
+                <h1 class="header-title">Dashboard</h1>
+                <div class="create-invoice">                    
+                    <a href="#ex1" rel="modal:open">
+                        <i class="create-icon"></i>
+                    </a>
+                </div>                
+            </div>            
+            <div class="app-main">
+                <div class="invoice">
+                    <div class="invoice-search">
+                        <input type="text" class="search" placeholder="Search..." />
+                    </div>
+                    <div class="invoice-count">Invoices - 33</div>
+                    <div class="invoice-list"></div>
+                </div>
+                <div class="invoice-details-container">
+                    <h3 class="details-header">INVOICE DETAILS</h3>
+                    <div class="invoice-details">
+                        <div class="invoice-header">
+                            <div class="invoice-meta">
+                                <div class="left">
+                                    <h2 class="invoice-title text">Invoice</h2>
+                                    <div class="invoice-number text"># INV1122</div>
+                                    <div class="invoice-on text">11:35 AM - Today</div>
+                                </div>                                
+                                <div class="right">
+                                    <h2 class="invoice-customer-details text">CUSTOMER DETAILS</h2>
+                                    <div class="invoice-customer-name text">Vijay</div>
+                                    <div class="invoice-customer-email text">test@test.com</div>
+                                </div>
+                            </div>
+                            <div class="invoice-actions">
+                                    <i class="print-icon"></i>
+                            </div>
+                        </div>
+                        <div class="invoice-content">
+                            <div class="invoice-content-header">
+                                <div class="header-name item">Item</div>
+                                <div class="header-name quantity">Quantity</div>
+                                <div class="header-name price">Price</div>
+                            </div>
+                            <div class="invoice-content-items">
+                                <div class="row">
+                                    <div class="item-name">Kingfisher Bear</div>
+                                    <div class="item-quantity">10</div>
+                                    <div class="item-cost">2000</div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-container center">
+                <div class="modal-header">
+                    <h1 class="title">Create New Invoice</h1>
+                    <div class="order-number">ORDER NO: 1234</div>
+                    <h2 class="sub-title">Customer Details</h2>
+                    <!-- <a href="#" class="skip">SKIP</a> -->
+                </div>
+                <div class="modal-form">
+                    form here
+                </div>
+            </div>      
+      </div>          
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>    
+    <script src="./app.js"></script>    
+</html>
