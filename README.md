@@ -6,3 +6,6 @@ The assignment is implemented using Javascript, jQuery (for DOM Traversal), HTML
 How to open the assignement:
 1) Clone the repository
 2) open index.html in any web browser
+
+
+Check it out live @ https://vjcoder33.github.io/weavedin-assignment/
